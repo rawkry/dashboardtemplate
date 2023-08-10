@@ -1,0 +1,142 @@
+/** default **/
+.default {
+  background: #ee4399 !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.default:focus {
+  background: #ee4399 !important;
+  color: #ffffff !important;
+}
+
+.default:hover {
+  background: #f169ad !important;
+  color: #ffffff !important;
+}
+
+.default:active {
+  background: #FF3B9D !important;
+  color: #ffffff !important;
+}
+
+/** success **/
+
+.success {
+  background: #49817b !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.success:focus {
+  background: #49817b !important;
+  color: #ffffff !important;
+}
+
+.success:hover {
+  background: #6d9a95 !important;
+  color: #ffffff !important;
+}
+
+.success:active {
+  background: #42746f !important;
+  color: #ffffff !important;
+}
+
+/** success **/
+
+.success {
+  background: #49817b !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.success:focus {
+  background: #49817b !important;
+  color: #ffffff !important;
+}
+
+.success:hover {
+  background: #6d9a95 !important;
+  color: #ffffff !important;
+}
+
+.success:active {
+  background: #42746f !important;
+  color: #ffffff !important;
+}
+
+/** danger **/
+
+.danger {
+  background: #6f0032 !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.danger:focus {
+  background: #6f0032 !important;
+  color: #ffffff !important;
+}
+
+.danger:hover {
+  background: #8c335b !important;
+  color: #ffffff !important;
+}
+
+.danger:active {
+  background: #64002d !important;
+  color: #ffffff !important;
+}
+
+/** info **/
+
+.info {
+  background: #0082da !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.info:focus {
+  background: #0082da !important;
+  color: #ffffff !important;
+}
+
+.info:hover {
+  background: #339be1 !important;
+  color: #ffffff !important;
+}
+
+.info:active {
+  background: #0075c4 !important;
+  color: #ffffff !important;
+}
+
+/** warning **/
+
+.warning {
+  background: #ff8267 !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.warning:focus {
+  background: #ff8267 !important;
+  color: #ffffff !important;
+}
+
+.warning:hover {
+  background: #ff9b85 !important;
+  color: #ffffff !important;
+}
+
+.warning:active {
+  background: #e6755d !important;
+  color: #ffffff !important;
+}

@@ -1,0 +1,39 @@
+.sidenav {
+  background: #ffffff4d;
+  backdrop-filter: blur(5px);
+  opacity: 1;
+  width: 60px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  padding-top: 60px !important;
+  z-index: 998;
+
+  -moz-transition: width 0.3s ease-out;
+  transition: width 0.3s ease-out;
+}
+
+.sidenav.open {
+  width: 280px;
+}
+
+.mainContent {
+  padding-top: 60px !important;
+  margin-left: 60px;
+
+  -moz-transition: margin-left 0.34s ease-out;
+  transition: margin-left 0.34s ease-out;
+}
+
+.mainContent.open {
+  margin-left: 280px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContent {
+    margin-left: 60px !important;
+  }
+}

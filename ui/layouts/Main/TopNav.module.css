@@ -1,0 +1,44 @@
+.topnav {
+  height: 60px;
+  border-bottom: solid 1px #e9e9e9;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(3px);
+  z-index: 999;
+  padding: 10px 0 ;
+}
+
+.rotate {
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #ee459a;
+}
+.rotate.full {
+  -moz-transform: scale(0.9) rotate(-180deg);
+  -webkit-transform: scale(0.9) rotate(-180deg);
+  transform: scale(0.9) rotate(-180deg);
+  color: #ee459a99;
+}
+
+.menuBtn {
+  background: transparent;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 1.7rem;
+  text-shadow: 0 0 0.4px #77234d30;
+}
+
+.menuBtnHolder {
+  background: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-right: solid 1px #e9e9e9;
+  border-bottom: solid 1px #e9e9e9;
+  color: #cccccc;
+}
+
+.menuBtnHolder:hover {
+  background: #f6f6f6;
+}

@@ -1,0 +1,115 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/morph/bootstrap.min.css");
+
+body {
+  background: #fff9fc;
+}
+
+.font-zapp-thin {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.font-zapp {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.font-zapp-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.font-zapp-extrabold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.zapp-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.zapp-scroll::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background: transparent;
+}
+.zapp-scroll::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #c344ff90;
+}
+
+
+.bg-zapp {
+  background-color: #FF3B9D !important;
+}
+.box-shadow-zapp {
+  box-shadow: #be377b 0px 5px 14px -7.5px;
+}
+.border-zapp {
+  border-color: #FF3B9D30 !important;
+}
+
+.border-zapp-alt {
+  border-color: #be377b !important;
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.bg-zapp-secondary {
+  background-color: #c344ff !important;
+}
+
+.bg-zapp-gradient {
+  background: -webkit-linear-gradient(45deg, #FF3B9D, #c344ff);
+  background: linear-gradient(45deg, #FF3B9D, #c344ff);
+}
+.bg-zapp-gradient-alt {
+  background: -webkit-linear-gradient(45deg, #c344ff, #FF3B9D);
+  background: linear-gradient(45deg, #c344ff, #FF3B9D);
+}
+.bg-blur {
+  opacity: 0.8;
+  backdrop-filter: blur(5px);
+}
+.text-zapp {
+  background: -webkit-linear-gradient(#FF3B9D, #c344ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tooltip {
+  --bs-tooltip-bg: rgba(0, 0, 0, 0.8);
+}
+.tooltip-inner {
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: none;
+}
+
+.tooltip-arrow {
+  box-shadow: none !important;
+}
+
+.table-zapp-3 th,
+.table-zapp-3 td {
+  padding: 1.3rem;
+}
+
+.table-zapp th {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800 !important;
+}
+
+.table-zapp td {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important;
+}
+.hover-select:hover {
+  background-color: #f0f0f0;
+    color: rgb(226, 16, 142);
+}

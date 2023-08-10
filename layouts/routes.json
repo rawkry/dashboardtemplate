@@ -1,0 +1,102 @@
+[
+  {
+    "type": "singular",
+    "title": "Dashboard",
+    "url": "/",
+    "icon": "fa-solid fa-gauge-high",
+    "spacer": "bottom"
+  },
+  {
+    "type": "card",
+    "title": "Businesses",
+    "icon": "fa-solid fa-briefcase",
+    "links": [
+      {
+        "title": "List",
+        "url": "/businesses",
+        "icon": "fa-regular fa-rectangle-list"
+      },
+      {
+        "title": "Add New",
+        "url": "/businesses/add",
+        "icon": "fa-solid fa-circle-plus"
+      }
+    ]
+  },
+
+  {
+    "type": "card",
+    "title": " Admins",
+    "icon": "fa-solid fa-users",
+    "links": [
+      {
+        "title": "List",
+        "url": "/business-admins",
+        "icon": "fa-regular fa-rectangle-list"
+      },
+      {
+        "title": "Add New",
+        "url": "/business-admins/add",
+        "icon": "fa-solid fa-circle-plus"
+      }
+    ]
+  },
+  {
+    "type": "card",
+    "title": " Users",
+    "icon": "fa-solid fa-users",
+    "links": [
+      {
+        "title": "List",
+        "url": "/business-users",
+        "icon": "fa-regular fa-rectangle-list"
+      },
+      {
+        "title": "Add New",
+        "url": "/business-users/add",
+        "icon": "fa-solid fa-circle-plus"
+      }
+    ]
+  },
+  {
+    "type": "card",
+    "title": "Businesses Cashflows",
+    "icon": "fa-solid fa-sack-dollar",
+    "links": [
+      {
+        "title": "List",
+        "url": "/business-cashflows",
+        "icon": "fa-regular fa-rectangle-list"
+      }
+    ]
+  },
+  {
+    "type": "card",
+    "title": "Users Cashflows",
+    "icon": "fa-solid fa-sack-dollar",
+    "links": [
+      {
+        "title": "List",
+        "url": "/users-cashflows",
+        "icon": "fa-regular fa-rectangle-list"
+      }
+    ]
+  },
+  {
+    "type": "card",
+    "title": "Applicants",
+    "icon": "fa-solid  fa-blender-phone",
+    "links": [
+      {
+        "title": "List",
+        "url": "/applicants",
+        "icon": "fa-regular fa-rectangle-list"
+      },
+      {
+        "title": "Add New",
+        "url": "/applicants/add",
+        "icon": "fa-solid fa-circle-plus"
+      }
+    ]
+  }
+]
